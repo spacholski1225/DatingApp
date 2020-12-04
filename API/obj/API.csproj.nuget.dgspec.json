@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\DatingApp\\API\\API.csproj": {}
+    "d:\\Projects\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\DatingApp\\API\\API.csproj": {
+    "d:\\Projects\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "d:\\Projects\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Projects\\DatingApp\\API\\API.csproj",
+        "projectPath": "d:\\Projects\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\bld\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DatingApp\\API\\obj\\",
+        "outputPath": "d:\\Projects\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -57,6 +57,10 @@
               "noWarn": [
                 "NU1605"
               ]
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
