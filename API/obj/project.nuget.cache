@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "2ogXRqVKHgGo3t7Wvt6727Y8vGWbIjRTpPQXkJafhMHqyXQDahd4qnrOo40EVFO3TNeE+AQSV+Kcd94fiUkngw==",
+  "dgSpecHash": "E6XNHYCwPJhIsbad131tPzQbR9SklDxEWjXwB66FDjzezzopQplQQn40YG0qKhLCLR0udm100tLmdmQmZbreoQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bld\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\bld\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
+    "C:\\Users\\bld\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\bld\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Users\\bld\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\bld\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.0\\microsoft.data.sqlite.core.5.0.0.nupkg.sha512",

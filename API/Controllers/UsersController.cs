@@ -1,8 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using API.Data;
 using API.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -14,16 +17,16 @@ namespace API.Controllers
             _context = context;
         }
         [HttpGet]
-        public ActionResult<IEnumerable<AppUser>> GetUsers()
+        [AllowAnonymous]
+        public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers()
         {
-            var users = _context.Users.ToList();
-            return users;
+            return await _context.Users.ToListAsync();
         }
-        //api/users/2
+        [Authorize]
         [HttpGet("{id}")]
-        public ActionResult<AppUser> GetUsers(int id)
+        public async Task<ActionResult<AppUser>> GetUsers(int id)
         {
-            return _context.Users.Find(id);          
+            return await _context.Users.FindAsync(id);          
         }
     }
 }

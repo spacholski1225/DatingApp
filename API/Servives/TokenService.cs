@@ -25,7 +25,7 @@ namespace API.Servives
                 new Claim(JwtRegisteredClaimNames.NameId, user.UserName)
             };
 
-            var creds = new SigningCredentials(_key, SecurityAlgorithms.Sha512Digest);
+            var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
